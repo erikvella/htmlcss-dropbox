@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .debug{
@@ -24,12 +25,15 @@ section{
     
 }
 
-.container .d-flex{
+.box-col{
   justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
 }
 .box{
   width: 30%;
-  height: 800px;
+  
+  margin-top: 50px;
 }
 /* qui finiscono gli stili generici della pagina e iniziano gli stili particolari */
 
@@ -115,4 +119,36 @@ h2{
 .choice2{
   margin-top: 60px;
   margin-left: 40px;
+}
+
+.fa-solid{
+  margin-right: 10px;
+}
+.faso{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.boxc {
+  width: 30%;
+  height: 800px;
+  border-top: none;
+
+}
+
+h3{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+h5{
+  color: rgb(155, 155, 155);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contenuto{
+  margin-left: 20px;
+  margin-top: 30px;
 }
