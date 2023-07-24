@@ -13,6 +13,24 @@
   display: flex;
 }
 
+section{
+  width: 100%;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 150px;
+    
+}
+
+.container .d-flex{
+  justify-content: space-between;
+}
+.box{
+  width: 30%;
+  height: 800px;
+}
 /* qui finiscono gli stili generici della pagina e iniziano gli stili particolari */
 
 
@@ -82,4 +100,19 @@ h1{
   bottom: -50px;
   right: 400px;
  
+}
+
+/* qui finiscono gli stili relativi al jumbotron e iniziano gli stili per il main */
+
+h2{
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.choice1{
+  margin-top: 60px;
+}
+.choice2{
+  margin-top: 60px;
+  margin-left: 40px;
 }
