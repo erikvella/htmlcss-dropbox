@@ -234,11 +234,14 @@ ul li{
 .square{
  width: 50%;
  height: 50%;
-  
+  align-items: center;
+  justify-content: center;
 }
 
 .client-img{
   width:40% ;
-  justify-self: center;
-  margin-left: 30%;
+ }
+
+.designit-img{
+
 }
