@@ -243,7 +243,7 @@ ul li{
 
  }
 
-hr{
+.semihr{
   margin-top: 60px;
   margin-bottom: 60px;
   width: 30%;
@@ -286,4 +286,41 @@ background-color: rgb(0, 0, 167);
 
 #bgclear{
 background-color: rgb(240, 240, 0);
+}
+
+.bgjumbo{
+   background-color: rgb(172, 216, 255);
+   
+   justify-content: center;
+   align-items: center;
+}
+
+#invito{
+color: rgb(75, 4, 4);
+margin-top: 50px;
+}
+
+.btn-bianco2{
+  
+  background-color: white;
+  padding: 10px 15px;
+  width: 60%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.faq{
+  justify-content: space-between;
+}
+
+footer{
+  margin-top: 150px;
+  background-color: black;
+  color: white;
+  height: 500px;
 }
