@@ -241,6 +241,7 @@ ul li{
   margin-top: 150px;
   height: 630px;
   flex-wrap: wrap;
+  aspect-ratio: 1 / 1;
 }
 
 .square{
@@ -248,6 +249,7 @@ ul li{
  height: 50%;
   align-items: center;
   justify-content: center;
+  aspect-ratio: 1 / 1;
 }
 
 .client-img{
