@@ -62,7 +62,9 @@ background-color: white;
 .head-menu span{
   margin-left: 30px;
 }
-
+.menu-element{
+  padding-bottom: 35px;
+}
 .btn-blu{
   color: white;
   background-color: rgb(44, 44, 232);
@@ -103,9 +105,9 @@ h1{
 
 #jumbo-png{
   position: absolute;
-  width: 600px;
-  bottom: -50px;
-  right: 400px;
+  width: 900px;
+  bottom: -100px;
+  right: 150px;
  
 }
 
@@ -397,4 +399,9 @@ strong{
 .card-icons{
   position: absolute;
   position: absolute;right: 240px;
+}
+
+.square:active,.square.active{
+ 
+  border: 10px rgba(255, 255, 255, 0.5) solid;
 }
