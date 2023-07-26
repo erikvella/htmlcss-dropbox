@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  
 }
 
 .debug{
@@ -118,7 +119,7 @@ h1{
   width: 900px;
   bottom: -100px;
   right: 150px;
- 
+  
 }
 
 /* qui finiscono gli stili relativi al jumbotron e iniziano gli stili per il main */
@@ -239,9 +240,9 @@ ul li{
 .section-square{
   width: 33.333%;
   margin-top: 150px;
-  height: 630px;
+  
   flex-wrap: wrap;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
 }
 
 .square{
@@ -249,7 +250,7 @@ ul li{
  height: 50%;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
 }
 
 .client-img{
@@ -421,3 +422,4 @@ strong{
 nav ul li a:hover{
   border-bottom: 2px solid black;
 }
+
