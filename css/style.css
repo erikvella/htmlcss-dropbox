@@ -11,7 +11,7 @@
 
 .erdebug{
   background-color: aquamarine;
-  border: 1px solid black;
+  border: 1px solid rgb(172, 57, 57);
 }
 .d-flex{
   display: flex;
@@ -254,6 +254,13 @@ ul li{
   filter: invert(1);
 }
 
+.semihr-card{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 30%;
+  
+}
+
 /* qui andiamo a definire il colore di sfondo dei singoli quadrati */
 
 #bgdesignit{
@@ -322,5 +329,72 @@ footer{
   margin-top: 150px;
   background-color: black;
   color: white;
-  height: 500px;
+}
+
+.footer-col{
+  width: 20%;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+
+strong{
+  font-size: 1.5rem;
+}
+
+.semihr-foot{
+  margin-top: 80px;
+  width: 15%;
+  margin-left: 475px;
+  color: white;
+}
+
+.fa-caret-up{
+  margin-left: 20px;
+}
+
+#language{
+  margin-bottom: 60px;
+}
+
+
+/* effetti hover e active  */
+
+.section-square .middle{
+  overflow: auto;
+}
+
+.head-menu span:hover{
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.btn-blu:hover{
+  cursor: pointer;
+  filter: opacity(.4);
+}
+
+.btn-bianco,.btn-bianco2{
+  cursor: pointer;
+}
+
+.check-list{
+  position: relative;
+  margin-left: 30px;
+}
+
+.fa-check{
+  color: rgb(48, 48, 248);
+  position: absolute;right: 240px;
+
+}
+
+.card-list{
+  position: relative;
+  margin-left: 30px;
+}
+
+.card-icons{
+  position: absolute;
+  position: absolute;right: 240px;
 }
