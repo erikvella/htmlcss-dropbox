@@ -56,15 +56,25 @@ background-color: white;
 }
 
 .head-menu{
-  width: 30%;
+  width: 40%;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
-.head-menu span{
-  margin-left: 30px;
-}
-.menu-element{
+nav ul li a{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
   padding-bottom: 35px;
 }
+.dx-menu{
+  justify-content: end;
+}
+
+  
+
 .btn-blu{
   color: white;
   background-color: rgb(44, 44, 232);
@@ -366,10 +376,7 @@ strong{
   overflow: auto;
 }
 
-.head-menu span:hover{
-  border-bottom: 2px solid black;
-  cursor: pointer;
-}
+
 
 .btn-blu:hover{
   cursor: pointer;
@@ -404,4 +411,11 @@ strong{
 .square:active,.square.active{
  
   border: 10px rgba(255, 255, 255, 0.5) solid;
+}
+.square:hover{
+  cursor: pointer;
+}
+
+nav ul li a:hover{
+  border-bottom: 2px solid black;
 }
